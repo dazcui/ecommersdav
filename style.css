@@ -20,7 +20,7 @@ body{
     transition: .3s ease all;;  
 }
 
-.dark{
+body.dark{
         background-color: rgb(139, 133, 133);
 }
 .section{
@@ -208,6 +208,27 @@ body{
     background-color: #E6E6E6;
     margin: 2em;    
     border-radius: 1em;
+}
+body.dark .tarjeta{
+    background-color: #9ADDE0;
+}
+body.dark .image{
+    background-color: #9ADDE0;
+}
+body.dark .button_show_all{
+    background-color: #656868;
+}
+body.dark .button_hoodies{
+    background-color: #656868;
+}
+body.dark .button_shirts{
+    background-color: #656868;
+}
+body.dark .button_sweatshirts{
+    background-color: #656868;
+}
+body.dark .cuerpo__tarjeta{
+    background-color: #656868;
 }
 .cuerpo__tarjeta{
     background-color: white;    
